@@ -1,0 +1,36 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="FastDownloader.GUI.MainWindow"
+        Title="FastDownloader.GUI"
+        TransparencyLevelHint="AcrylicBlur"
+        Background="Transparent">
+	<!---->
+	<Panel>
+		<ExperimentalAcrylicBorder IsHitTestVisible="False">
+			<ExperimentalAcrylicBorder.Material>
+				<ExperimentalAcrylicMaterial
+                    BackgroundSource="Digger"
+                    TintColor="#4CE9FF"
+                    TintOpacity="1"
+                    MaterialOpacity="0.55" />
+			</ExperimentalAcrylicBorder.Material>
+		</ExperimentalAcrylicBorder>
+        <Grid ColumnDefinitions="230,1,5*,4*" VerticalAlignment="Top">
+		    <Button Content="Login no Spotify"
+                    Grid.Column="0"
+                    Margin="5"></Button>
+            <TextBox 
+                AcceptsReturn="True"
+                Margin="5"
+                Grid.Column="1"
+                Width="180"
+                >
+                Teste
+            </TextBox>
+        </Grid>
+        
+	</Panel>
+</Window>
